@@ -4,7 +4,9 @@
 box-sizing: border-box;
 -webkit-text-size-adjust: auto;
 }
-
+body{
+  background-color: black;
+}
 #wrapper {
   margin: 50px;
 }
@@ -14,8 +16,13 @@ p{
 }
 h1{
   padding-bottom: 15px;
-  text-decoration: underline;
+  text-decoration: overline;
+  color: white;
 }
 h4{
   line-height: 30px;
+}
+blockquote{
+  background-color: white;
+  padding: 40px;
 }
